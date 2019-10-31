@@ -19,7 +19,7 @@ $(document).ready(function(){
 	$('.box-checkbox').click(function(){
 		$(this).toggleClass('checked');
 	})
-	$("#container-video").fitVids();
+	$(".box-video").fitVids();
 
 	$('.enviar-btn').click(function(){
 		 let field = $(this).parent().find('input');
