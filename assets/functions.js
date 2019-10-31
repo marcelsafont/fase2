@@ -23,7 +23,7 @@ $(document).ready(function(){
 
 	$('.enviar-btn').click(function(){
 		 let field = $(this).parent().find('input');
-		if(field.val() == 'Platón' || field.val() == 'platón'|| field.val() == 'PLATÓN'){
+		if(field.val() == 'Amelia' || field.val() == 'AMELIA'){
 			$('.message-wrong').removeClass('visible');
 			$('.message-ok').addClass('visible');
 		}else{
